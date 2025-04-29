@@ -12,7 +12,10 @@ Amaç, tüm işleri sırasıyla tamamlamak için minimum toplam süreyi bulmakt�
 
 
 Matris zinciri çarpımı ile ilişkisi:
+
+
 Her iki problemde de:
+
 Geçmişte yapılan tercihler gelecekteki maliyeti etkiler,
 Her adım için en iyi kararı almak gerekir (optimal substructure),
 Tekrar eden alt problemler vardır (overlapping subproblems),
