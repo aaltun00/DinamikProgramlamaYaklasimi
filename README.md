@@ -1,6 +1,9 @@
 Bu proje, farklı makinelerde farklı sürelerde işlerin tamamlandığı ve makineler arası geçiş maliyetlerinin bulunduğu bir üretim hattında, işlerin minimum toplam sürede tamamlanmasını amaçlayan bir dinamik programlama çözümüdür.
 
+
 Problem Tanımı:
+
+
 Bir üretim hattında n adet iş sıralı şekilde yapılmak zorundadır.
 Her iş, m farklı makinede tamamlanabilir ve her makinede işlem süresi farklıdır.
 Ayrıca, bir işten sonra başka bir makinede devam edilirse bir geçiş maliyeti (setup cost) oluşur.
@@ -8,6 +11,8 @@ Ayrıca, bir işten sonra başka bir makinede devam edilirse bir geçiş maliyet
 Amaç, tüm işleri sırasıyla tamamlamak için minimum toplam süreyi bulmaktır.
 
 Kullanılan Yöntem:
+
+
 Bu problem, klasik matris zinciri çarpımı problemini andırır.
 Dinamik programlama (DP) yaklaşımıyla çözülmüştür:
 
