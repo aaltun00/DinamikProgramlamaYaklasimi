@@ -10,6 +10,17 @@ Ayrıca, bir işten sonra başka bir makinede devam edilirse bir geçiş maliyet
 
 Amaç, tüm işleri sırasıyla tamamlamak için minimum toplam süreyi bulmaktır.
 
+
+Matris zinciri çarpımı ile ilişkisi:
+Her iki problemde de:
+Geçmişte yapılan tercihler gelecekteki maliyeti etkiler,
+Her adım için en iyi kararı almak gerekir (optimal substructure),
+Tekrar eden alt problemler vardır (overlapping subproblems),
+Dinamik programlama ile çözüm verimlidir.
+Üretim hattı probleminde, her iş için en uygun makineyi seçmek, bir sonraki adımı da etkilediği için tıpkı matris çarpma sırasını seçmek gibidir. Bu yüzden, iki problem kavramsal olarak oldukça benzerdir.
+
+
+
 Kullanılan Yöntem:
 
 
