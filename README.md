@@ -17,6 +17,8 @@ Geçiş maliyetleri transition[i][j] ile modellenmiştir
 
 Çözüm: dp[n-1][j] değerlerinin minimumu
 
-Zaman ve Uzay Karmaşıklığı:
 Zaman Karmaşıklığı: O(n × m²) 
+
+
+
 Uzay Karmaşıklığı: O(n × m)
